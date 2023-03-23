@@ -1,0 +1,37 @@
+//color
+$wite:#FFFFFF;
+$antique:#FAE9D6;
+$darck-green:#1E4844;
+$light-green:#C2D8CC;
+$blue-bell:#9B9AC7;
+$light-blue:#8695C7;
+$blue:#332B5B;
+$red:#DA6A66;
+$orange:#C15244;
+
+//mixins
+//extend
+%flex-center {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+%flex-stretch {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+%flex-star {
+    display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+%button {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    border: 2px solid #FFFFFF;
+    border-radius: 0px 50px 50px 0px;
+    padding: 11px 42px;
+}

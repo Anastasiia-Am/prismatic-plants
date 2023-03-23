@@ -1,0 +1,29 @@
+&{
+    background: $blue;
+    color: $antique;
+    @extend %flex-star;
+    &_block_right{
+        padding: 11% 0% 0% 4.5%;
+        p{
+            margin-top: 2%;
+            margin-bottom: 3%;
+        }
+        div{
+            @extend %flex-star;
+            gap: 6%;
+            margin-left: 1%;
+        }
+        ul{
+            li{
+                margin-bottom: 8%;
+            }
+        }
+        a{
+           @import "./../../button";
+           font-weight: 700;
+           line-height: 21px;
+           color: $antique;
+           border-color: $antique;
+        }
+    }
+}

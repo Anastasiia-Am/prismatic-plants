@@ -1,0 +1,21 @@
+&{
+    background: $orange;
+    @extend %flex-center;
+    .description{
+        padding-left: 4.5%;
+      
+      h2{
+        margin-top: -29%;
+        margin-bottom: 2%;
+      }
+      p{
+        margin: 2% 15% 2% 0%;
+      }
+      & p:nth-child(2){
+        margin-right: 12%;
+      }
+    }
+    .img_s03{
+        padding: 4.6% 0% 18% 0%;
+      } 
+}

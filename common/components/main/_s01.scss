@@ -1,0 +1,35 @@
+&{
+    width: 100%;
+    display: flex;
+.day{
+    width: 50%;
+    background: url(./../../../img/day.jpg);
+    padding: 36.7% 0% 4.5% 4.5% ;
+    p{
+        margin-top: 2%;
+    margin-bottom: 11%;
+    }
+    a{
+        @import "./../../button";
+        font-size: 17px;
+        line-height: 23px;
+        padding: 10px 78px;
+    }
+}
+.night{
+    width: 50%;
+    background: url(./../../../img/night.jpg);
+    padding: 33.2% 0% 4.5% 4.5% ;
+    p{
+        margin-top: 2%;
+    margin-bottom: 11%;
+    color: $blue-bell;
+    }
+    a{
+        @import "./../../button";
+        font-size: 17px;
+        line-height: 23px;
+        padding: 10px 78px;
+    }
+}
+}

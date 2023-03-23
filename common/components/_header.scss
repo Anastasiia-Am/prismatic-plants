@@ -1,0 +1,23 @@
+.sale {
+    display: inline-block;
+    width: 100%;
+    background-color: $blue;
+    text-align: center;
+    padding: 0.3% 0%;
+    p{
+        @extend %p-sale;
+    }
+}
+.nav{
+    @extend %flex-center;
+    padding: 1% 5% 1.5% 5%;
+    nav{
+        width: 41%;
+        a{
+            margin-right: 5%;
+        }
+    }
+    .logo{
+        margin-right: 40.5%;
+    }
+} 

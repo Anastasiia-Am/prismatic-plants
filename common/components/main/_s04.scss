@@ -1,0 +1,26 @@
+&{
+    background-color: $light-blue;
+    padding: 4.3% 0% 8.6% 0%;
+text-align: center;
+h2{
+    color: $blue;
+    margin-bottom: 6%;
+}
+&_block{
+    @extend %flex-star;
+    gap: 10%;
+    margin-left: 9%;
+    &_left{
+        width: 40%;
+        @import "./../../block";
+    }
+    &_right{
+        width: 40%;
+        color: $blue;
+        P {
+            padding-top: 11%; 
+        }
+    }
+    
+}
+}

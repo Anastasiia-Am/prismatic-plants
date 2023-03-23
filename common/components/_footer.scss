@@ -1,0 +1,72 @@
+&{
+    @extend %flex-star;
+    .footer_left{
+        width: 37%;
+        background-color: $light-green;
+        color: $darck-green;
+        padding: 5% 0% 11.5% 2.5%;
+        ul{
+            li{
+                line-height: 30px;
+                margin-left: 6%;
+                margin-bottom: 2%;
+            }
+        }
+        a{
+            margin: 0% -5% 0% 6%;
+        }
+        .carts{
+            margin: 6% 0% 0% 14%;
+          }
+        p{
+            @extend %p-sale;
+            margin:14% 0% 0% 14%;
+        }
+    }
+    .footer_right{
+        padding-top: 4.5%;
+        h3{
+            @extend %h3-footer;
+            color: $light-green;
+            margin-bottom: 2%;
+  margin-left: 6.5%; 
+        }
+        p{
+            @extend %p-footer;
+            color: white;
+            margin-left: 6.5%; 
+        }
+        form{
+            margin: 1.5% 0% 7% 6.5%;
+            @import "./../form";
+        }
+        img{
+            position: relative;
+    z-index: 2;
+    margin-bottom: -0.6%;
+        }
+        .before{
+            background-color: $antique;
+            color: $darck-green;
+            display: flex;
+            padding: 3.5% 0% 5.3% 6.5%;
+            h3{
+                width: 31%;
+  line-height: 30px;
+  font-weight: 700;
+  color: $darck-green;
+}
+
+            div{
+                p{
+                    @extend %p-sale;
+                     margin-bottom: 3%; 
+                     margin-left: 0%;
+                     color: $darck-green;
+    }
+}
+}
+            }
+        }
+
+    

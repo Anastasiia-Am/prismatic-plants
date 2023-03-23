@@ -1,0 +1,7 @@
+&{
+    @extend %button;
+
+    &:hover, &:active{
+        background-color:rgba($wite, 0.5)
+    }
+}

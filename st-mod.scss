@@ -1,0 +1,40 @@
+@import "./common/variables";
+@import "./common/reset";
+@import "./common/fons_style";
+
+body{
+    font-family: 'Roboto';
+    background-color: $darck-green;
+    color: white;
+    //padding: 0% 20%;
+    width: 1440px;}
+
+    header{
+        @import "./common/components/header";
+        }
+    main{
+        .s00{
+        @import "./common/components/main/s00";
+        }
+        .s01{
+            @import "./common/components/main/s01";
+        }
+        .s02{
+            @import "./common/components/main/s02";
+        }
+        .s03{
+            @import "./common/components/main/s03";
+        }
+        .s04{
+            @import "./common/components/main/s04";
+        }
+        .s05{
+            @import "./common/components/main/s05";
+        }
+        .s06{
+            @import "./common/components/main/s06";
+        }
+    }
+    footer{
+        @import "./common/components/footer";
+    }
