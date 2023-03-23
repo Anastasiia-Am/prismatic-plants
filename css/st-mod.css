@@ -142,7 +142,7 @@ header .nav .logo {
 }
 
 main .s00 .baner {
-  background: url(./../../../img/bagraund_header.jpg);
+  background: url(../img/bagraund_header.jpg);
   background-position: 0px -129px;
   padding: 4.9% 0% 19% 4.5%;
 }
@@ -180,7 +180,7 @@ main .s01 {
 }
 main .s01 .day {
   width: 50%;
-  background: url(./../../../img/day.jpg);
+  background: url(../img/day.jpg);
   padding: 36.7% 0% 4.5% 4.5%;
 }
 main .s01 .day p {
@@ -197,7 +197,7 @@ main .s01 .day a:hover, main .s01 .day a:active {
 }
 main .s01 .night {
   width: 50%;
-  background: url(./../../../img/night.jpg);
+  background: url(../img/night.jpg);
   padding: 33.2% 0% 4.5% 4.5%;
 }
 main .s01 .night p {
